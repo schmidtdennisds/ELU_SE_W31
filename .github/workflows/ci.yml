@@ -1,4 +1,4 @@
-name: Pylint GitHub Actions
+name: Pylint and Testing GitHub Actions
 run-name: ${{ github.actor }} is testing out Pylint and Testing GitHub Actions 🚀
 on: [push]
 jobs:
