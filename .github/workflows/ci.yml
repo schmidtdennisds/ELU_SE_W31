@@ -34,7 +34,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: test_script
-        run: 
+        run: |
           pip install pytest pytest-cov
           pytest test_shopping_cart.py
 
